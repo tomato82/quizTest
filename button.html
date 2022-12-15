@@ -1,0 +1,18 @@
+<html lang = "ja">
+    <meta charset="utf-8"/>
+    <body onload="init()">
+        <link href="style.css"rel="stylesheet">
+        <p id="question"class="question"></p>
+        <div id="hint" class="hint"></div>
+        <form>
+            <div id="answer"class="answerBox"></div>
+            <input type="button" value="Enter"id="button"class="button">
+            <br>
+        </form>
+        <p id="result"class="result"></p>
+        <audio id="correct"src="sounds/correct.mp3"></audio>
+        <audio id="incorrect"src="sounds/incorrect.mp3"></audio>
+        <audio id="bgm"src="sounds/bgm.mp3" autoplay loop></audio>
+        <script src=button.js></script>
+    </body>
+</html>
