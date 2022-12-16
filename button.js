@@ -7,7 +7,7 @@ let hint = document.getElementById('hint');
 let result = document.getElementById('result');
 let form = document.querySelector('form');
 function init(question){
-  getCsvData('csv/question.csv');
+  getCsvData('csv/morizumi.csv');
 }
 function* main(question) {
   let row;
